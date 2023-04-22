@@ -1,8 +1,13 @@
-# vuejs-progress-bar
+# himmussel/vue3-progress-bar
 ProgressBar for vue.js version 3 <br>
 SVG/Vector based <br>
 4 modes: _Line_, _Circle_, _Cylinder_ and _Battery_ <br>
 v1.2.8
+
+## Requirements
+Nodejs: v16.20.0
+npm: v8.19.4
+
 
 <img src="https://img.shields.io/badge/license-MIT-green.svg" /> <img src="https://img.shields.io/badge/dependencies-0-brightgreen.svg" /> <img src="https://img.shields.io/badge/bugs-0-red.svg" />
 
@@ -15,13 +20,16 @@ Do you have questions or want a new feature? Use the "Issues" section :point_lef
 ## Setup
 install:
 ```bash
-npm install vuejs-progress-bar --save
+npm install himmussel/vue3-progress-bar --save
 ```
 
-Import: (in your main.js)
+
+in your main.js
 ```javascript
-import ProgressBar from 'vuejs-progress-bar'
-Vue.use(ProgressBar)
+import ProgressBar from 'himmussel/vue3-progress-bar';
+import {createApp} from "vue";
+const app = createApp()
+              .component(ProgressBar)
 ```
 ## Usage
 Use: (in your local .vue file/component, html section)
@@ -85,30 +93,3 @@ options: {
 | progressPadding | Number           | 0            | Padding between background and progress bar _(line only)_ |
 | type            | String           | line         | type of progress bar: _line_, _circle_, _cylinder_ or _battery_ |
 
-## Update package:
-
-### 1. Compile and build for production
-```
-npm run build
-```
-
-### 2. check into git
-```
-git add .
-git commit -m "Message.."
-```
-
-### 3. Publish to NPM
-```
-# Do some work...
-
-# x.x.1 -> x.x.2
-npm version patch
-
-# x.1.0 -> x.2.0
-npm version minor
-
-# 1.0.0 -> 2.0.0
-npm version major
-
-```
