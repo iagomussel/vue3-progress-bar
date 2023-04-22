@@ -1,4 +1,4 @@
-# himmussel/vue3-progress-bar
+# vuejs3-progressbar
 ProgressBar for vue.js version 3 <br>
 SVG/Vector based <br>
 4 modes: _Line_, _Circle_, _Cylinder_ and _Battery_ <br>
@@ -20,13 +20,13 @@ Do you have questions or want a new feature? Use the "Issues" section :point_lef
 ## Setup
 install:
 ```bash
-npm install himmussel/vue3-progress-bar --save
+npm install vuejs3-progressbar --save
 ```
 
 
 in your main.js
 ```javascript
-import ProgressBar from 'himmussel/vue3-progress-bar';
+import ProgressBar from 'vuejs3-progressbar';
 import {createApp} from "vue";
 const app = createApp()
               .component(ProgressBar)
