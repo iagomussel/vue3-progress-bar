@@ -1,5 +1,5 @@
 # vuejs-progress-bar
-ProgressBar for vue.js <br>
+ProgressBar for vue.js version 3 <br>
 SVG/Vector based <br>
 4 modes: _Line_, _Circle_, _Cylinder_ and _Battery_ <br>
 v1.2.8

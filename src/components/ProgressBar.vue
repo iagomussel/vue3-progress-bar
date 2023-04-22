@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { ProgressBarMixin } from './ProgressBarMixin'
+import { ProgressBarMixin } from '../mixins/ProgressBarMixin'
 import ProgressBarBattery from './ProgressBarBattery'
 import ProgressBarCircle from './ProgressBarCircle'
 import ProgressBarCylinder from './ProgressBarCylinder'

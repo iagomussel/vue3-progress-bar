@@ -9,17 +9,19 @@
   "main": "./dist/ProgressBar.common.js",
   "browser": "dist/ProgressBar.umd.js",
   "scripts": {
-    "serve": "vue-cli-service serve ./src/main.js",
-    "build": "vue-cli-service build --target lib --name ProgressBar src/components/index.js",
+    "serve": "vue-cli-service serve ./test/main.js",
+    "build": "vue-cli-service build --target lib --name ProgressBar src/index.js",
     "version": "npm run build && git add -A",
     "postversion": "git push -u --follow-tags origin master && npm publish"
+  },
+  "dependencies": {
+    "vue":"^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.4",
     "@vue/cli-service": "^5.0.4",
     "node-sass": "7.0.1",
     "sass-loader": "^13.0.0",
-    "vue": "^2.6.14",
     "vue-template-compiler": "^2.6.14"
   },
   "files": [
@@ -27,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/larsmars/vuejs-progress-bar"
+    "url": "https://github.com/iagomussel/vue3-progress-bar"
   },
   "postcss": {
     "plugins": {
@@ -42,6 +44,9 @@
   "keywords": [
     "vuejs",
     "vue.js",
+    "vue3",
+    "component",
+    "frontend",
     "progress",
     "progressbar",
     "progress-bar"

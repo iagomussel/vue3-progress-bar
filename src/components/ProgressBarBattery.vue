@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import { ProgressBarMixin } from './ProgressBarMixin'
+import { ProgressBarMixin } from '../mixins/ProgressBarMixin'
 
 export default {
   name: 'ProgressBarBattery',
